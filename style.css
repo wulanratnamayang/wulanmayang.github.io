@@ -1,0 +1,257 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: gainsboro;
+}
+
+/* CSS Tampilan Header */
+.atas {
+    font-family: 'Dancing Script', cursive;
+    max-width: 1080px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+}
+
+header {
+    font-family: 'Dancing Script', cursive;
+    background-color: saddlebrown;
+    color: white;
+    padding: 20px;
+}
+
+.header h1 {
+    font-family: 'Dancing Script', cursive;
+    margin-top: 7px;
+    font-size: 35px;
+}
+
+/* CSS Menu Utama */
+nav ul {
+    font-family: 'Dancing Script', cursive;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: darkorange;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.menu:hover {
+    background-color: black;
+}
+
+/* CSS Tampilan awal */
+.top-wrapper {
+    padding-top: 180px;
+    padding-bottom: 100px;
+    color: white;
+    background-image: url(img/1.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.search {
+    background-color:darkorange;
+}
+
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+/* CSS Body */
+.kotakan-kiri {
+    border: 0px solid gainsboro;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: 'Abel', sans-serif;
+}
+
+h3 {
+    color: white;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+}
+
+.kotakan-tengah {
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: 'Abel', sans-serif;
+}
+
+.kotakan h3 {
+    background-color: saddlebrown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+    height: 40px;
+    font-family: 'Abel', sans-serif;
+}
+
+.kotakan h4 {
+    background-color: saddlebrown;
+    background-size: contain;
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+    height: 40px;
+    width: 379px;
+    font-size: 20px;
+    font-family: 'Abel', sans-serif;
+}
+
+.kotakan-kiri img {
+    display: block;
+    margin-top: 40px;
+    width: auto;
+    margin-bottom: 10px;
+    font-family: 'Abel', sans-serif;
+}
+
+.kotakan-tengah img {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.kotakan p {
+    margin-bottom: 10px;
+    font-family: 'Abel', sans-serif;
+}
+
+.menu-kiri {
+    width: 350px;
+    margin-right: 10px;
+    float: left;
+    font-family: 'Abel', sans-serif;
+}
+
+.menu-tengah {
+    width: 600px;
+    margin-right: 10px;
+    float: left;
+    font-family: 'Abel', sans-serif;
+}
+
+.menu-tengah h3 {
+    background: none;
+    color: white;
+    margin-bottom: 0px;
+    font-family: 'Abel', sans-serif;
+}
+
+.menu-kanan,
+.menu-kiri,
+.menu-tengah {
+    margin-bottom: 15px;
+}
+
+.tgl-post {
+    color: gray;
+    text-align: right;
+    font-size: 12px;
+    display: block;
+    margin-top: 12px;
+    font-family: 'Abel', sans-serif;
+}
+
+.tombol {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 150px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    background-color: darkorange;
+}
+
+.tombol:hover {
+    background-color:black;
+}
+
+/* CSS Tabel */
+table {
+    font-family: 'Abel', sans-serif;
+    border-collapse: collapse;
+    border: none;
+    width: 379px;
+    height: 400px;
+}
+
+th,
+td {
+    border-bottom: 1px solid #ddd;
+    height: 44px;
+    vertical-align: middle;
+}
+
+tr:hover {
+    background-color: darkorange;
+}
+
+/* CSS Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: saddlebrown;
+    color: white;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+}
+
